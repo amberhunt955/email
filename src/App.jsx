@@ -1,11 +1,16 @@
-import { useState } from 'react'
+// components
+import NavBar from './components/NavBar'
+import Form from './components/Form'
+
+// styling
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Email App</h1>
+      <NavBar />
+      <Form />
     </>
   )
 }
